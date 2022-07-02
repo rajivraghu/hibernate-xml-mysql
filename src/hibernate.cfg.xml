@@ -7,13 +7,13 @@
     <session-factory>
 
         <!-- Database connection settings -->
-        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
-        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:oracletest</property>
-        <property name="connection.username">oracletest</property>
-        <property name="connection.password">oracletest</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hello-world</property>
+        <property name="connection.username">vaihi</property>
+        <property name="connection.password">vaihi</property>
 
         <!-- SQL dialect -->
-        <property name="dialect">org.hibernate.dialect.OracleDialect</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>

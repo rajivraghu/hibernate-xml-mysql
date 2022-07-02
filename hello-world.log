@@ -1,1 +1,3 @@
 14:00:05,191 DEBUG SQL:109 - select hibernate_sequence.nextval from dual
+08:55:09,526 DEBUG SQL:109 - insert into message (TEXT) values (?)
+08:55:09,536 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello World with Hibernate and JPA Annotations]
