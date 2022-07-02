@@ -1,0 +1,1 @@
+14:00:05,191 DEBUG SQL:109 - select hibernate_sequence.nextval from dual
